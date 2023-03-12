@@ -1,0 +1,16 @@
+<script>
+  $(function(){
+    $("#navbar").load("navbar.html");
+    $("#pageFooter").load("footer.html");
+
+    const url = window.location.href.split('/');
+    const lastSegmentWithHtml = url[url.length-1];
+    const lastSegment = lastSegmentWithHtml.split('.');
+    const route = lastSegment[0];
+    setInterval(function () {
+      $("#"+route).addClass("active");
+    },1000);
+
+  });
+
+</script>

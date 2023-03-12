@@ -1,0 +1,27 @@
+.info-box {
+    height: 200px;
+    /*line-height: 200px;*/
+    text-align: center;
+    border-radius: 15px;
+}
+.box-content {
+   margin: auto;
+}
+.box-content i{
+   font-size: 2rem;
+}
+
+.common-contact .info-box {
+    height: 120px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.common-contact .box-content i {
+    font-size: 1.5rem;
+}
+
+.testimonial-carousel .owl-item img {
+    width: auto !important;
+    height: auto !important;
+}
